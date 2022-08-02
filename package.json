@@ -1,0 +1,32 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "Wall of nostalgia express server",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "nodemon server.js"
+	},
+	"author": "Super X Labs",
+	"license": "MIT",
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"bcryptjs": "^2.4.3",
+		"colors": "^1.4.0",
+		"connect-mongo": "^4.6.0",
+		"connect-mongodb-session": "^3.1.1",
+		"cors": "^2.8.5",
+		"dotenv": "^15.0.0",
+		"express": "^4.17.2",
+		"express-async-handler": "^1.2.0",
+		"express-session": "^1.17.3",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.1.9",
+		"passport": "^0.6.0",
+		"passport-spotify": "^2.0.0"
+	},
+	"devDependencies": {
+		"concurrently": "^7.0.0",
+		"nodemon": "^2.0.15"
+	}
+}
